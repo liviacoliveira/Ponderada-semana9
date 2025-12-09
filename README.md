@@ -29,7 +29,7 @@ Durante a análise estática do código e arquitetura, as seguintes vulnerabilid
 ## 2.2 Autenticação fraca
 
 - O sistema não implementa qualquer autenticação.
-- Apesar de haver sistema de autenticação, essa proteção é insuficiente para impedir que invasores entrem.
+- Proteção é insuficiente para impedir que invasores entrem.
 - Qualquer cliente capaz de identificar o IP do ESP32 pode enviar comandos como `/?led=on` ou `/?led=off`.
 - Isso permite controle total do dispositivo sem barreiras.
 
