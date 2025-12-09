@@ -57,9 +57,13 @@ Essas vulnerabilidades possibilitam ataques reais e relativamente fáceis de exe
 **Impacto:** Alto  
 Dependendo da função do ESP32, o impacto pode envolver:
 
-- Controle indevido de atuadores (relés, motores, bombas, fechaduras).
-- Alteração de dados sensíveis enviados por sensores.
-- Possibilidade de causar danos físicos ou operacionais.
+- **Impacto financeiro:** danos a equipamentos (motores, bombas, relés) acionados indevidamente; custos de manutenção ou substituição.
+
+- **Impacto operacional:** interrupção de processos automáticos, acionamento indevido de sistemas ou desligamento inesperado de dispositivos.
+
+- **Impacto em segurança física:** abertura não autorizada de portas, desligamento de iluminação, risco a pessoas em ambientes industriais ou residenciais.
+
+- **Impacto em reputação:** se o sistema for parte de um protótipo empresarial ou produto, falhas visíveis ao usuário final afetam a confiança no dispositivo.
 
 **Risco:** Moderado  
 O sistema simples reduz o interesse de interceptação, mas a exposição das credenciais Wi-Fi agrava o problema.
@@ -84,9 +88,15 @@ O sistema simples reduz o interesse de interceptação, mas a exposição das cr
 **Impacto:** Alto  
 Dependendo da função do endpoint, o impacto pode envolver:
 
-- Acesso total às funcionalidades restritas do sistema.
-- Execução de comandos administrativos sem controle.
-- Possibilidade de comprometimento total do dispositivo ou do ambiente onde ele opera.
+- **Perdas financeiras:** consumo indevido de energia por atuadores ligados continuamente; desgaste prematuro de equipamentos; necessidade de reposição de componentes.
+
+- **Prejuízos operacionais:** o atacante pode ligar/desligar o sistema sempre que quiser, interrompendo processos ou causando travamentos.
+
+- **Comprometimento total do dispositivo:** o invasor pode controlar tudo, inclusive redefinir estados críticos do protótipo.
+
+- **Risco para o ambiente físico:** se o dispositivo controlar iluminação, fechaduras, bombas d'água ou qualquer parte de infraestrutura, o atacante pode causar danos ou colocar pessoas em risco.
+
+- **Exposição de dados ou credenciais:** endpoints não autenticados podem revelar variáveis internas, comportamentos ou até credenciais hardcoded.
 
 **Risco:** Muito Alto  
 Este é um dos ataques mais graves possíveis em dispositivos IoT sem autenticação.
