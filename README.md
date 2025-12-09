@@ -3,7 +3,7 @@
 ## Grupo 2 - Turma 15
 
 ### Contribuição Individual:
-- **Emanuelly Dias** - Identificação do ataque 2
+- **Emanuelly Dias** - Identificação do ataque 2 e conclusão
 - **Felipe Neves** - Montagem do protótipo físico e testagem
 - **Livia Cavalcanti** - Organização do repositório
 - **Maria Arielly** - Auxílio na identificação do ataque 1
